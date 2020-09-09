@@ -1,0 +1,13 @@
+if you can write C# code to find the sum of all integers 1 through 20 that are divisible by 3.
+
+int sum = 0;
+for (int number = 1; number < 21; number++)
+{
+  if (number % 3 == 0)
+  {
+    sum = sum + number;
+  }
+}
+Console.WriteLine($"The sum is {sum}");
+Output:
+The sum is 63

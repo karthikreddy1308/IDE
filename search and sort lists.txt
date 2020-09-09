@@ -1,0 +1,27 @@
+var names = new List<string> { "<name>", "Ana", "Felipe" };
+foreach (var name in names)
+{
+  Console.WriteLine($"Hello {name.ToUpper()}!");
+}
+Console.WriteLine();
+names.Add("Maria");
+names.Add("Bill");
+names.Remove("Ana");
+foreach (var name in names)
+{
+  Console.WriteLine($"Hello {name.ToUpper()}!");
+}
+var index = names.IndexOf("Felipe");
+if (index != -1)
+  Console.WriteLine($"The name {names[index]} is at index {index}");
+
+var notFound = names.IndexOf("Not Found");
+  Console.WriteLine($"When an item is not found, IndexOf returns {notFound}");
+
+Output:
+Hello <NAME>!
+Hello FELIPE!
+Hello MARIA!
+Hello BILL!
+The name Felipe is at index 1
+When an item is not found, IndexOf returns -1

@@ -1,0 +1,36 @@
+int counter = 0;
+while (counter < 10)
+{
+  Console.WriteLine($"Hello World! The counter is {counter}");
+  counter++;
+}
+output:
+Hello World! The counter is 0
+Hello World! The counter is 1
+Hello World! The counter is 2
+Hello World! The counter is 3
+Hello World! The counter is 4
+Hello World! The counter is 5
+Hello World! The counter is 6
+Hello World! The counter is 7
+Hello World! The counter is 8
+Hello World! The counter is 9
+
+int counter = 0;
+do
+{
+  Console.WriteLine($"Hello World! The counter is {counter}");
+  counter++;
+} while (counter < 10);
+
+output:
+Hello World! The counter is 0
+Hello World! The counter is 1
+Hello World! The counter is 2
+Hello World! The counter is 3
+Hello World! The counter is 4
+Hello World! The counter is 5
+Hello World! The counter is 6
+Hello World! The counter is 7
+Hello World! The counter is 8
+Hello World! The counter is 9
