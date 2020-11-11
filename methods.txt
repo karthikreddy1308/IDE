@@ -13,3 +13,5 @@ namespace myApp
         }
     }
 }
+output
+HELLO KARTHIK!
